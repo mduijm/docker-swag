@@ -3,3 +3,8 @@ version: v1
 id:
   org: e81044e8-8de3-4b6d-89ac-0ac9da236631
   app: a780d247-bf56-4b65-b137-623685e3794f
+
+dast:
+url: http://10.36.234.10/xvwa/
+fortipentest_scanner: false #true|false Set to true if you have a FortiPenTest license.
+full_scan: true #true|false
